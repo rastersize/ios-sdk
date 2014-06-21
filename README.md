@@ -115,7 +115,7 @@ As an example, when your application is launched you'll want to restore your sto
 session then check if it's valid and renew it if necessary. Your code flow would go
 something like this:
 
-```
+```objc
 SPTSession *session = …; // Restore session
 
 if (session == nil) {
